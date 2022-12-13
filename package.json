@@ -1,0 +1,7 @@
+{
+    "exports":{
+        "require":"./tables.js",
+        "import":"./tables.js"
+      },
+    "type": "module"
+}
