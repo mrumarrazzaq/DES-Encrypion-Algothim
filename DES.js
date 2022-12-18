@@ -18,13 +18,15 @@ import { FinalPermutation, RoundFunction } from './rounding.js';
 
 
 let plainText  = 'PAKISTAN';
-let initialKey = 'UMARRAZZ';
+let initialKey = 'FAHADUET';
 let bits = 8; // 4 for Hexadecimal
 let isASCII =true;
 
-
-console.log('_____________________________________________');
-console.log(plainText);
+console.log('======================================DES ENCYPTION=======================================');
+function DESEncryption()
+{
+    console.log('_____________________________________________');
+    console.log(plainText);
 
 let plainText_ascii_value; 
 if(isASCII)
@@ -375,15 +377,22 @@ if(isASCII)
 {
     let cyper_text = Convert_To_Character(cyper_text_numeric);
     console.log(cyper_text);
+    return cyper_text;
 }
 else
 {
     let cyper_text = Decimal_To_HexDecimal(cyper_text_numeric);
     console.log(cyper_text);
+    return cyper_text;
+}
 }
 
+DESEncryption();
 
-console.log('=============================================================================');
+
+
+
+
 
 
 

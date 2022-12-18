@@ -20,7 +20,6 @@ export function PrintKeysAfterPC_2(keys)
     }
 }
 
-
 export function Print(array)
 {
     for(let i=0;i<array.length;i++)
@@ -28,6 +27,7 @@ export function Print(array)
         console.log(array[i]);
     }
 }
+
 export function Convert_To_Hex(text)
 {
     let hex_values=[];
@@ -50,6 +50,7 @@ export function Convert_To_Hex(text)
     // console.log(ascii_values);
     return hex_values;
 }
+
 export function Convert_To_ASCII(text)
 {
     let ascii_values=[];
